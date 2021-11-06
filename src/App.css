@@ -42,3 +42,8 @@ line-height: 32px;
 backdrop-filter: blur(81.5485px);
 padding-left: 100px;
 }
+@media(max-width: 1024px){
+  .row{
+    display: block;
+  }
+}

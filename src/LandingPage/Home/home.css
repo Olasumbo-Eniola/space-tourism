@@ -1,9 +1,6 @@
 .homepage {
   background: url(./background-home-desktop.jpg);
-    /* Full height */
     height: 100vh;
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,8 +14,7 @@
 }
 .home-btn{
     padding-top: 250px;
-    margin-right: 166px !important;
-    margin-left: 250px !important;
+    margin-left: 190px;
 }
 .explore-btn {
   width: 274px;
@@ -35,4 +31,35 @@
   color: var(--dark-color);
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+@media(max-width: 1024px){
+  .homepage{
+    background: url(./background-home-tablet.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .home-text{
+    flex: 50%;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .home-btn{
+    flex: 50%;
+    max-width:50%;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .explore-btn{
+    margin: auto;
+    width: 242px;
+    height: 242px;
+  }
 }
