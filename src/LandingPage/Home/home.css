@@ -1,8 +1,13 @@
 .homepage {
   background: url(./background-home-desktop.jpg);
-  height: 100vh;
-  position: relative;
-  background-position: fixed;
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
 .home-text {
   flex: 38%;
