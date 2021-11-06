@@ -22,7 +22,7 @@
   color: var(--light-color);
 }
 .heading1{
-  font: var(--heading1) Bellefair;
+  font-size: var(--heading1);
   font-family: 'Bellefair', serif;
   color: var(--white-color);
 line-height: 172px;
